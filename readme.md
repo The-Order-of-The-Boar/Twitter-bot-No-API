@@ -26,9 +26,9 @@
 - Todos essa lista são as chamadas do seu navegador fez para o twitter, mandando algum `request` especifico para realizar alguma ação, como por exemplo tendo as heards e o parametro necessario podemos postar uma nova menssagem.
 
 ```python
-	import request
+import request
 
-	headers= {
+headers= {
     'authority': 'api.twitter.com',
     'authorization': 'Bearer UUUUUUUUUUUUUUUUUUUUUNRILgUUUUUUnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FU33UGWWjCpTnU',
     'x-twitter-client-language': 'pt',
@@ -45,9 +45,9 @@
     'referer': 'https://twitter.com/',
     'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
     ......
-    }
+}
 
-    data_post = {
+data_post = {
       'include_profile_interstitial_type': '1',
       'include_blocking': '1',
       'include_blocked_by': '1',
@@ -70,7 +70,7 @@
       'auto_populate_reply_metadata': 'false',
       'batch_mode': 'off',
       'status': msg #new message
-    }
+}
 
     response = requests.post('https://api.twitter.com/1.1/statuses/update.json', headers=headers, data=data_post)
 
