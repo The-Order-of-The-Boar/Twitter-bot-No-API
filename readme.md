@@ -23,7 +23,7 @@
 	<img src="image/img3.png"/>
 </center>
 
-- Todos essa lista são as chamadas do seu navegador fez para o twitter, mandando algum `request` espesifico para realizar alguma ação, como por exemplo tendo as heards e o parametro necessario podemos postar uma nova menssagem.
+- Todos essa lista são as chamadas do seu navegador fez para o twitter, mandando algum `request` especifico para realizar alguma ação, como por exemplo tendo as heards e o parametro necessario podemos postar uma nova menssagem.
 
 ```python
 	import request
