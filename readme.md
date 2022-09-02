@@ -30,7 +30,7 @@ import request
 
 headers= {
     'authority': 'api.twitter.com',
-    'authorization': 'Bearer UUUUUUUUUUUUUUUUUUUUUNRILgUUUUUUnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FU33UGWWjCpTnU',
+    'authorization': 'Bearer xxxxxxxxxxxxxxxxxxxxxx',
     'x-twitter-client-language': 'pt',
     'x-csrf-token': '00000000000000000000000000000000',
     'x-twitter-auth-type': 'OAuth2Session',
